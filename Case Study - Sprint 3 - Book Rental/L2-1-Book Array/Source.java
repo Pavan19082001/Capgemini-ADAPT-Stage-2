@@ -19,7 +19,7 @@ public class Source {
 				if(sc.hasNextLine())
 					s[i][j] = sc.nextLine();
 		        
-        for(int i = 0; i < 4; i++) {
+        for(int i = 0; i < 5; i++) {
             for(int j = 0; j < 4 - i; j++) {
                 
                 int a = Integer.parseInt(s[j][0]);
